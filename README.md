@@ -57,7 +57,12 @@ openssl x509 -req -in website.csr -CA self-signed-ca-cert.crt -CAkey private-ca.
 ```
 Note: As of April 2019 iOS 13+ and macOS 15+, the server certificate can not have an expiry > 825 and must include ExtendedKeyUsage extension https://support.apple.com/en-us/HT210176 
  
-Add the root certificate and the website certificate to client computers.
+### Add the root certificate and the website certificate to client computers.
+
+Add the self-signed-ca-cert.crt generated to client web browsers.
+
+Add website.crt,website.key to corresponding website or proxy manager.
+
 
 
 For reference, see here: https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/
