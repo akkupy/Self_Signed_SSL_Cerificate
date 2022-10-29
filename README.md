@@ -1,4 +1,4 @@
-# Self_Signed_SSL_Cerificate
+# Self Signed SSL Cerificate
 
 ## Private CA and self signed certs that work with Chrome
 
