@@ -65,4 +65,4 @@ Add website.crt,website.key to corresponding website or proxy manager.
 
 
 
-For reference, [see here](ttps://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/)
+For reference, [see here](https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/)
